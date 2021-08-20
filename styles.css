@@ -1,5 +1,8 @@
 body {
     background-color: rgb(229, 185, 125);
+    padding: 0;
+    margin: 0;
+    height: 100%
 }
 
 h1 {
@@ -8,12 +11,29 @@ h1 {
 
 .header {
     background-color: rgb(208, 124, 43);
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.headerContent {
     color: black;
+    text-align: center;
+    padding-left: 40px;
 }
 
 .intro_pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     width: 25%;
+}
+
+.main_body {
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
 }
