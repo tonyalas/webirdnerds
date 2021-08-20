@@ -5,35 +5,74 @@ body {
     height: 100%
 }
 
-h1 {
-    font-size: 72px;
-}
-
 .header {
     background-color: rgb(208, 124, 43);
     display: flex;
     width: 100%;
-    height: 200px;
+    height: auto; /* AUTO FITS TEXT TO HEADER */
+    padding-bottom: 30px;
+    padding-top: 30px;
+    flex-direction: column;
 }
 
 .headerContent {
     color: black;
     text-align: center;
-    padding-left: 40px;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto; /* Helps make the text stay aligned in the middle/center */
+    display: inline;
+}
+
+.pageLinks {
+    color: black;
+    text-align: center;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto; /* Helps make the text stay aligned in the middle/center */
+    display: inline;
+}
+
+.pageLinkButton {
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width: auto;
+    opacity: 0.9;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+}
+
+.pageLinkButton:hover {
+    opacity: 1;
 }
 
 .intro_pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
-    width: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.birdOfTheDay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .main_body {
     text-align: center;
+    margin: 0 auto;
+    width: 85%;
 }
 
-h2 {
-    font-size: 64px;
+.welcomeText {
+    width: auto;
+    padding-top: 15px;
 }
+
