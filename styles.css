@@ -24,21 +24,46 @@ body {
     display: inline;
 }
 
-.pageLinks {
+.topnav {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.topnav a {
+    color: #ddd;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 15px 16px;
+    margin: auto;
+}
+
+.topnav a.icon:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#pageLinks {
     color: black;
     text-align: center;
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 auto; /* Helps make the text stay aligned in the middle/center */
-    display: inline;
+    display: none;
+    padding-top: 15px;
 }
 
 .pageLinkButton {
     font-size: medium;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     height: auto;
-    width: auto;
+    width: 100px;
     opacity: 0.9;
     font-size: 14px;
     border: none;
@@ -49,12 +74,36 @@ body {
     opacity: 1;
 }
 
+.headerText a:link { 
+    text-decoration: none; color: black;
+}
+
+.headerText a:visited { 
+    text-decoration: none; color: black;
+}
+
+.headerText a:hover { 
+    text-decoration: none; color: black;
+}
+
+.headerText a:active { 
+    text-decoration: none; color: black;
+}
+
 .intro_pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 50%;
+}
+
+.aboutUs_Pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
 }
 
 .birdOfTheDay {
@@ -69,6 +118,7 @@ body {
     text-align: center;
     margin: 0 auto;
     width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .welcomeText {
